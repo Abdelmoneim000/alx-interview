@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Pascale triangle module for the Problem to solve"""
 
 def pascal_triangle(n):
