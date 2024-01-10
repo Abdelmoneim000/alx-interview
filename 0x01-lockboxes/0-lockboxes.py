@@ -16,7 +16,6 @@ def canUnlockAll(boxes):
                 new_Set.add(j)
         else:
             continue
-    print(new_Set)
     for i in range(len(boxes)):
         if i in new_Set:
             for j in boxes[i]:
