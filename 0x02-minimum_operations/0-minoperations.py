@@ -9,6 +9,7 @@ def minOperations(n):
     while len(char) < n:
         length = len(char)
         if length < n and n % length == 0:
+            num += 1
             for i in range(length):
                 char += char[i]
             num += 1
